@@ -15,7 +15,7 @@ class GetTest {
                 .post("/post")
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("currency: EURO"))
+                .body("data", equalTo("currency: ERO"))
         ;
     }
 
