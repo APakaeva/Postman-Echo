@@ -29,7 +29,7 @@ class GetTest {
                 .post("/post")
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("currency: Мяу"))
+                .body("data", equalTo("currency: Meow"))
         ;
     }
 }
